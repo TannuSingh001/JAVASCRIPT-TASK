@@ -1,10 +1,3 @@
-// // stack and heap
-// let myyoutube = "this is another things"
-// let anothervalue = myyoutube
-// console.log(anothervalue)
-// const message = "hello"[4]
-
-// console.log(message)
 // const message = 'hello world 34';
 
 // console.log(message.length);
@@ -17,9 +10,15 @@
 // )
 // const b = "hello world"
 // console.log(b.includes('am'))
-const message = "i am a tannu"
+// const message = "i am a tannu"
 // console.log(message.indexOf('a'));
 // const message = "i am a tannu";
 
 // console.log(message.lastIndexOf('a'));
 // console.log( message.indexOf('z'))
+// console.log(message.replace('i', 'hii'));
+// const message = "i am i";
+// console.log(message.replace('i', 'hii'));
+const a = "hello i am tannu";
+const ReplaceALL = a.replaceAll
+console.log(a.replaceAll('hello i am tannu', 'hii,good morinig'))
