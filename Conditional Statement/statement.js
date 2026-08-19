@@ -153,3 +153,68 @@
 // else{
 //     console.log("No scholarship")
 // }
+// let balance = 10000;
+// let withdraw = 5000;
+// let pinCorrect = true;
+
+// if (pinCorrect && withdraw <= balance) {
+//     console.log("Transaction Successful");
+//     balance = balance - withdraw;
+//     console.log("Remaining Balance:", balance);
+// } else if (!pinCorrect) {
+//     console.log("Incorrect PIN");
+// } else {
+//     console.log("Insufficient Balance");
+// }
+// let balance = 10000;
+// let withdraw = 5000;
+// let pinCorrect = true;
+
+// if (pinCorrect && withdraw <= balance) {
+//     console.log("Transaction Successful");
+//     balance = balance - withdraw;
+//     console.log("Remaining Balance:", balance);
+// } else if (!pinCorrect) {
+//     console.log("Incorrect PIN");
+// } else {
+//     console.log("Insufficient Balance");
+// }
+// let balance = 10000;
+// let withdraw = 5000;
+// let pinCorrect = true;
+
+// if (pinCorrect && withdraw <= balance) {
+//     console.log("Transaction Successful");
+//     balance = balance - withdraw;
+//     console.log("Remaining Balance:", balance);
+// } else if (!pinCorrect) {
+//     console.log("Incorrect PIN");
+// } else {
+//     console.log("Insufficient Balance");
+// }
+// let username = "admin";
+// let password = "1234";
+// let isBlocked = false;
+// let isAdmin = true;
+
+// if (!isBlocked) {
+
+//     if (username === "admin" && password === "1234") {
+
+//         console.log("Login Successful");
+
+//         if (isAdmin) {
+//             console.log("Welcome Admin");
+//             console.log("You can access Dashboard");
+//         } else {
+//             console.log("Welcome User");
+//             console.log("Limited Access");
+//         }
+
+//     } else {
+//         console.log("Wrong Username or Password");
+//     }
+
+// } else {
+//     console.log("Your account is blocked");
+// }
