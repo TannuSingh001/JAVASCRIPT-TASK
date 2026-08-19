@@ -118,3 +118,38 @@
 // }
 
 // console.log("----- RESULT END -----");
+// let username = "admin";
+// let password = "1234";
+// if (username === "admin"&& password ==="1234"){
+//     console.log("loginSuccessful" )
+// }
+// else {
+//     console.log("invalid")
+// }
+// let age = 20;
+// let licence = true;
+// if (age>="18"&& licence ==="true"){
+//     console.log("You can drive")
+
+// }
+// else 
+// {
+//     console.log("You canot be drrive"
+//     )
+// }
+// let day = "Sunday";
+
+// if (day === "Saturday" || day === "Sunday") {
+//     console.log("Weekend");
+// } else {
+//     console.log("Working Day");
+// }
+// let percentage = 85;
+// let attendance = 80;
+// let sports = false;
+// if (percentage>=85&& attendance>="80"){
+//     console.log("scholarship")
+// }
+// else{
+//     console.log("No scholarship")
+// }
