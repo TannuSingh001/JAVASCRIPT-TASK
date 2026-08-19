@@ -91,3 +91,13 @@
 // else{
 //     console.log("not a leap year ");
 // }
+    let a = 10;
+        let b = 5;
+
+        document.write("a == b : " + (a == b) + "<br>");
+        document.write("a === b : " + (a === b) + "<br>");
+        document.write("a != b : " + (a != b) + "<br>");
+        document.write("a > b : " + (a > b) + "<br>");
+        document.write("a < b : " + (a < b) + "<br>");
+        document.write("a >= b : " + (a >= b) + "<br>");
+        document.write("a <= b : " + (a <= b) + "<br>");
