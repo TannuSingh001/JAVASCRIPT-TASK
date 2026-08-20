@@ -80,30 +80,30 @@
 //   default:
 //     console.log('Please Enter a Valid Day Number')
 // }
- const username = 'Anurag'
-const userAge = 24
+//  const username = 'Anurag'
+// const userAge = 24
 
-debugger
+// debugger
 
-switch(true) {
-    case userAge >= 0 && userAge <= 4:
-        console.log(`${username} is a kid.`)
-        break
-    case (userAge >= 5 && userAge <= 17):
-        console.log(`${username} is a school student.`)
-        break
-    case (userAge >= 18 && userAge <= 24):
-        console.log(`${username} is a college student.`)
-        break
-    case true:
-        console.log(`${username} is a working professional.`)
-        break
-    case (userAge > 45 && userAge < 121):
-        console.log(`${username} is retired.`)
-        break
-    default:
-        console.log('Please Enter a Valid Age');
-}
+// switch(true) {
+//     case userAge >= 0 && userAge <= 4:
+//         console.log(`${username} is a kid.`)
+//         break
+//     case (userAge >= 5 && userAge <= 17):
+//         console.log(`${username} is a school student.`)
+//         break
+//     case (userAge >= 18 && userAge <= 24):
+//         console.log(`${username} is a college student.`)
+//         break
+//     case true:
+//         console.log(`${username} is a working professional.`)
+//         break
+//     case (userAge > 45 && userAge < 121):
+//         console.log(`${username} is retired.`)
+//         break
+//     default:
+//         console.log('Please Enter a Valid Age');
+// }
 
 // if (userAge >= 0 && userAge <= 4) {
 //     console.log(`${username} is a kid.`);
@@ -151,3 +151,194 @@ switch(true) {
 // }
 
 // console.log('Program Ended!')
+let balance = 10000;
+
+const choice = Number(
+    prompt(
+        "ATM MENU\n" +
+        "1. Check Balance\n" +
+        "2. Deposit Money\n" +
+        "3. Withdraw Money\n" +
+        "4. Exit\n\n" +
+        "Enter your choice:"
+    )
+);
+
+switch (choice) {
+
+    case 1:
+        console.log("Your Balance is: ₹" + balance);
+        break;
+
+    case 2:
+        const deposit = Number(
+            prompt("Enter deposit amount:")
+        );
+
+        if (deposit > 0) {
+            balance = balance + deposit;
+
+            console.log(
+                "Money deposited successfully!"
+            );
+
+            console.log(
+                "New Balance: ₹" + balance
+            );
+        } else {
+            console.log("Invalid deposit amount.");
+        }
+
+        break;
+
+    case 3:
+        const withdraw = Number(
+            prompt("Enter withdrawal amount:")
+        );
+
+        if (withdraw <= 0) {
+
+            console.log(
+                "Invalid withdrawal amount."
+            );
+
+        } else if (withdraw > balance) {
+
+            console.log(
+                "Insufficient Balance!"
+            );
+
+        } else {
+
+            balance = balance - withdraw;
+
+            console.log(
+                "Please collect your cash."
+            );
+
+            console.log(
+                "Remaining Balance: ₹" + balance
+            );
+        }
+
+        break;
+
+    case 4:
+        console.log("Thank you for using ATM.");
+        break;
+
+    default:
+        console.log("Invalid option.");
+}
+let balance = 10000;
+
+const choice = Number(
+    prompt(
+        "ATM MENU\n" +
+        "1. Check Balance\n" +
+        "2. Deposit Money\n" +
+        "3. Withdraw Money\n" +
+        "4. Exit\n\n" +
+        "Enter your choice:"
+    )
+);
+
+switch (choice) {
+
+    case 1:
+        console.log("Your Balance is: ₹" + balance);
+        break;
+
+    case 2:
+        const deposit = Number(
+            prompt("Enter deposit amount:")
+        );
+
+        if (deposit > 0) {
+            balance = balance + deposit;
+
+            console.log(
+                "Money deposited successfully!"
+            );
+
+            console.log(
+                "New Balance: ₹" + balance
+            );
+        } else {
+            console.log("Invalid deposit amount.");
+        }
+
+        break;
+
+    case 3:
+        const withdraw = Number(
+            prompt("Enter withdrawal amount:")
+        );
+
+        if (withdraw <= 0) {
+
+            console.log(
+                "Invalid withdrawal amount."
+            );
+
+        } else if (withdraw > balance) {
+
+            console.log(
+                "Insufficient Balance!"
+            );
+
+        } else {
+
+            balance = balance - withdraw;
+
+            console.log(
+                "Please collect your cash."
+            );
+
+            console.log(
+                "Remaining Balance: ₹" + balance
+            );
+        }
+
+        break;
+
+    case 4:
+        console.log("Thank you for using ATM.");
+        break;
+
+    default:
+        console.log("Invalid option.");
+}
+if (choice >= 1 && choice <= 4) {
+
+    let quantity = Number(
+        prompt("Enter quantity:")
+    );
+
+    if (quantity <= 0) {
+
+        console.log("❌ Invalid quantity.");
+
+    } else {
+
+        let subtotal = price * quantity;
+        let discount = 0;
+
+        if (quantity >= 5) {
+            discount = subtotal * 0.20;
+        } 
+        else if (quantity >= 3) {
+            discount = subtotal * 0.10;
+        }
+
+        let finalAmount = subtotal - discount;
+
+        console.log("----- BILL -----");
+        console.log("Food: " + foodName);
+        console.log("Price: ₹" + price);
+        console.log("Quantity: " + quantity);
+        console.log("Subtotal: ₹" + subtotal);
+        console.log("Discount: ₹" + discount);
+        console.log("Final Amount: ₹" + finalAmount);
+    }
+}
