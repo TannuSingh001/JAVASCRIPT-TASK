@@ -151,194 +151,388 @@
 // }
 
 // console.log('Program Ended!')
-let balance = 10000;
+// let balance = 10000;
 
-const choice = Number(
-    prompt(
-        "ATM MENU\n" +
-        "1. Check Balance\n" +
-        "2. Deposit Money\n" +
-        "3. Withdraw Money\n" +
-        "4. Exit\n\n" +
-        "Enter your choice:"
-    )
-);
+// const choice = Number(
+//     prompt(
+//         "ATM MENU\n" +
+//         "1. Check Balance\n" +
+//         "2. Deposit Money\n" +
+//         "3. Withdraw Money\n" +
+//         "4. Exit\n\n" +
+//         "Enter your choice:"
+//     )
+// );
 
-switch (choice) {
+// switch (choice) {
 
-    case 1:
-        console.log("Your Balance is: ₹" + balance);
-        break;
+//     case 1:
+//         console.log("Your Balance is: ₹" + balance);
+//         break;
 
-    case 2:
-        const deposit = Number(
-            prompt("Enter deposit amount:")
-        );
+//     case 2:
+//         const deposit = Number(
+//             prompt("Enter deposit amount:")
+//         );
 
-        if (deposit > 0) {
-            balance = balance + deposit;
+//         if (deposit > 0) {
+//             balance = balance + deposit;
 
-            console.log(
-                "Money deposited successfully!"
-            );
+//             console.log(
+//                 "Money deposited successfully!"
+//             );
 
-            console.log(
-                "New Balance: ₹" + balance
-            );
-        } else {
-            console.log("Invalid deposit amount.");
-        }
+//             console.log(
+//                 "New Balance: ₹" + balance
+//             );
+//         } else {
+//             console.log("Invalid deposit amount.");
+//         }
 
-        break;
+//         break;
 
-    case 3:
-        const withdraw = Number(
-            prompt("Enter withdrawal amount:")
-        );
+//     case 3:
+//         const withdraw = Number(
+//             prompt("Enter withdrawal amount:")
+//         );
 
-        if (withdraw <= 0) {
+//         if (withdraw <= 0) {
 
-            console.log(
-                "Invalid withdrawal amount."
-            );
+//             console.log(
+//                 "Invalid withdrawal amount."
+//             );
 
-        } else if (withdraw > balance) {
+//         } else if (withdraw > balance) {
 
-            console.log(
-                "Insufficient Balance!"
-            );
+//             console.log(
+//                 "Insufficient Balance!"
+//             );
 
-        } else {
+//         } else {
 
-            balance = balance - withdraw;
+//             balance = balance - withdraw;
 
-            console.log(
-                "Please collect your cash."
-            );
+//             console.log(
+//                 "Please collect your cash."
+//             );
 
-            console.log(
-                "Remaining Balance: ₹" + balance
-            );
-        }
+//             console.log(
+//                 "Remaining Balance: ₹" + balance
+//             );
+//         }
 
-        break;
+//         break;
 
-    case 4:
-        console.log("Thank you for using ATM.");
-        break;
+//     case 4:
+//         console.log("Thank you for using ATM.");
+//         break;
 
-    default:
-        console.log("Invalid option.");
-}
-let balance = 10000;
+//     default:
+//         console.log("Invalid option.");
+// }
+// let balance = 10000;
 
-const choice = Number(
-    prompt(
-        "ATM MENU\n" +
-        "1. Check Balance\n" +
-        "2. Deposit Money\n" +
-        "3. Withdraw Money\n" +
-        "4. Exit\n\n" +
-        "Enter your choice:"
-    )
-);
+// const choice = Number(
+//     prompt(
+//         "ATM MENU\n" +
+//         "1. Check Balance\n" +
+//         "2. Deposit Money\n" +
+//         "3. Withdraw Money\n" +
+//         "4. Exit\n\n" +
+//         "Enter your choice:"
+//     )
+// );
 
-switch (choice) {
+// switch (choice) {
 
-    case 1:
-        console.log("Your Balance is: ₹" + balance);
-        break;
+//     case 1:
+//         console.log("Your Balance is: ₹" + balance);
+//         break;
 
-    case 2:
-        const deposit = Number(
-            prompt("Enter deposit amount:")
-        );
+//     case 2:
+//         const deposit = Number(
+//             prompt("Enter deposit amount:")
+//         );
 
-        if (deposit > 0) {
-            balance = balance + deposit;
+//         if (deposit > 0) {
+//             balance = balance + deposit;
 
-            console.log(
-                "Money deposited successfully!"
-            );
+//             console.log(
+//                 "Money deposited successfully!"
+//             );
 
-            console.log(
-                "New Balance: ₹" + balance
-            );
-        } else {
-            console.log("Invalid deposit amount.");
-        }
+//             console.log(
+//                 "New Balance: ₹" + balance
+//             );
+//         } else {
+//             console.log("Invalid deposit amount.");
+//         }
 
-        break;
+//         break;
 
-    case 3:
-        const withdraw = Number(
-            prompt("Enter withdrawal amount:")
-        );
+//     case 3:
+//         const withdraw = Number(
+//             prompt("Enter withdrawal amount:")
+//         );
 
-        if (withdraw <= 0) {
+//         if (withdraw <= 0) {
 
-            console.log(
-                "Invalid withdrawal amount."
-            );
+//             console.log(
+//                 "Invalid withdrawal amount."
+//             );
 
-        } else if (withdraw > balance) {
+//         } else if (withdraw > balance) {
 
-            console.log(
-                "Insufficient Balance!"
-            );
+//             console.log(
+//                 "Insufficient Balance!"
+//             );
 
-        } else {
+//         } else {
 
-            balance = balance - withdraw;
+//             balance = balance - withdraw;
 
-            console.log(
-                "Please collect your cash."
-            );
+//             console.log(
+//                 "Please collect your cash."
+//             );
 
-            console.log(
-                "Remaining Balance: ₹" + balance
-            );
-        }
+//             console.log(
+//                 "Remaining Balance: ₹" + balance
+//             );
+//         }
 
-        break;
+//         break;
 
-    case 4:
-        console.log("Thank you for using ATM.");
-        break;
+//     case 4:
+//         console.log("Thank you for using ATM.");
+//         break;
 
-    default:
-        console.log("Invalid option.");
-}
-if (choice >= 1 && choice <= 4) {
+//     default:
+//         console.log("Invalid option.");
+// }
+// if (choice >= 1 && choice <= 4) {
 
-    let quantity = Number(
-        prompt("Enter quantity:")
-    );
+//     let quantity = Number(
+//         prompt("Enter quantity:")
+//     );
 
-    if (quantity <= 0) {
+//     if (quantity <= 0) {
 
-        console.log("❌ Invalid quantity.");
+//         console.log("❌ Invalid quantity.");
 
-    } else {
+//     } else {
 
-        let subtotal = price * quantity;
-        let discount = 0;
+//         let subtotal = price * quantity;
+//         let discount = 0;
 
-        if (quantity >= 5) {
-            discount = subtotal * 0.20;
-        } 
-        else if (quantity >= 3) {
-            discount = subtotal * 0.10;
-        }
+//         if (quantity >= 5) {
+//             discount = subtotal * 0.20;
+//         } 
+//         else if (quantity >= 3) {
+//             discount = subtotal * 0.10;
+//         }
 
-        let finalAmount = subtotal - discount;
+//         let finalAmount = subtotal - discount;
 
-        console.log("----- BILL -----");
-        console.log("Food: " + foodName);
-        console.log("Price: ₹" + price);
-        console.log("Quantity: " + quantity);
-        console.log("Subtotal: ₹" + subtotal);
-        console.log("Discount: ₹" + discount);
-        console.log("Final Amount: ₹" + finalAmount);
-    }
-}
+//         console.log("----- BILL -----");
+//         console.log("Food: " + foodName);
+//         console.log("Price: ₹" + price);
+//         console.log("Quantity: " + quantity);
+//         console.log("Subtotal: ₹" + subtotal);
+//         console.log("Discount: ₹" + discount);
+//         console.log("Final Amount: ₹" + finalAmount);
+//     }
+// }
+// Railway Ticket Booking System
+
+// Railway Ticket Booking System
+
+// function bookTicket(destination, classType, passengers) {
+
+//     let place;
+//     let fare;
+
+//     // Destination selection
+//     switch (destination) {
+//         case 1:
+//             place = "Delhi";
+
+//             // Class selection
+//             switch (classType) {
+//                 case 1:
+//                     fare = 800; // AC
+//                     break;
+
+//                 case 2:
+//                     fare = 500; // Sleeper
+//                     break;
+
+//                 case 3:
+//                     fare = 250; // General
+//                     break;
+
+//                 default:
+//                     return "Invalid class selected";
+//             }
+//             break;
+
+//         case 2:
+//             place = "Jaipur";
+
+//             switch (classType) {
+//                 case 1:
+//                     fare = 1000;
+//                     break;
+
+//                 case 2:
+//                     fare = 650;
+//                     break;
+
+//                 case 3:
+//                     fare = 300;
+//                     break;
+
+//                 default:
+//                     return "Invalid class selected";
+//             }
+//             break;
+
+//         case 3:
+//             place = "Chandigarh";
+
+//             switch (classType) {
+//                 case 1:
+//                     fare = 900;
+//                     break;
+
+//                 case 2:
+//                     fare = 550;
+//                     break;
+
+//                 case 3:
+//                     fare = 280;
+//                     break;
+
+//                 default:
+//                     return "Invalid class selected";
+//             }
+//             break;
+
+//         case 4:
+//             place = "Mumbai";
+
+//             switch (classType) {
+//                 case 1:
+//                     fare = 1800;
+//                     break;
+
+//                 case 2:
+//                     fare = 1200;
+//                     break;
+
+//                 case 3:
+//                     fare = 700;
+//                     break;
+
+//                 default:
+//                     return "Invalid class selected";
+//             }
+//             break;
+
+//         default:
+//             return "Invalid destination selected";
+//     }
+
+//     // Passenger validation
+//     if (passengers <= 0 || !Number.isInteger(passengers)) {
+//         return "Invalid number of passengers";
+//     }
+
+//     // Calculate total
+//     let total = fare * passengers;
+
+//     // Discount
+//     let discount = 0;
+
+//     if (passengers >= 5) {
+//         discount = total * 0.10;
+//     }
+
+//     let finalAmount = total - discount;
+
+//     // Class name
+//     let className;
+
+//     switch (classType) {
+//         case 1:
+//             className = "AC";
+//             break;
+
+//         case 2:
+//             className = "Sleeper";
+//             break;
+
+//         case 3:
+//             className = "General";
+//             break;
+//     }
+
+//     // Ticket summary
+//     console.log("===== RAILWAY TICKET =====");
+//     console.log("Destination :", place);
+//     console.log("Class       :", className);
+//     console.log("Passengers  :", passengers);
+//     console.log("Fare/person :", "₹" + fare);
+//     console.log("Total       :", "₹" + total);
+//     console.log("Discount    :", "₹" + discount);
+//     console.log("Final Amount:", "₹" + finalAmount);
+//     console.log("==========================");
+// }
+
+
+// // Test
+// bookTicket(2, 1, 5);
+// let balance = 25000;
+// let pin = 1234;
+
+// let enteredPin = 1234;
+// let choice = 3;
+// let amount = 5000;
+
+// switch (choice) {
+//     case 1:
+//         console.log("Balance: ₹" + balance);
+//         break;
+
+//     case 2:
+//         if (amount > 0) {
+//             balance += amount;
+//             console.log("Deposited: ₹" + amount);
+//             console.log("New Balance: ₹" + balance);
+//         } else {
+//             console.log("Invalid amount");
+//         }
+//         break;
+
+//     case 3:
+//         if (amount <= 0) {
+//             console.log("Invalid amount");
+//         } else if (amount > balance) {
+//             console.log("Insufficient balance");
+//         } else {
+//             balance -= amount;
+//             console.log("Withdrawn: ₹" + amount);
+//             console.log("Remaining Balance: ₹" + balance);
+//         }
+//         break;
+
+//     case 4:
+//         console.log("Change PIN selected");
+//         break;
+
+//     case 5:
+//         console.log("Thank you for using ATM");
+//         break;
+
+//     default:
+//         console.log("Invalid choice");
+// }

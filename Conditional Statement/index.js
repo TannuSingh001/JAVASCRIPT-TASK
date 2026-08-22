@@ -91,13 +91,113 @@
 // else{
 //     console.log("not a leap year ");
 // }
-    let a = 10;
-        let b = 5;
+    // let a = 10;
+    //     let b = 5;
 
-        document.write("a == b : " + (a == b) + "<br>");
-        document.write("a === b : " + (a === b) + "<br>");
-        document.write("a != b : " + (a != b) + "<br>");
-        document.write("a > b : " + (a > b) + "<br>");
-        document.write("a < b : " + (a < b) + "<br>");
-        document.write("a >= b : " + (a >= b) + "<br>");
-        document.write("a <= b : " + (a <= b) + "<br>");
+    //     document.write("a == b : " + (a == b) + "<br>");
+    //     document.write("a === b : " + (a === b) + "<br>");
+    //     document.write("a != b : " + (a != b) + "<br>");
+    //     document.write("a > b : " + (a > b) + "<br>");
+    //     document.write("a < b : " + (a < b) + "<br>");
+    //     document.write("a >= b : " + (a >= b) + "<br>");
+    //     document.write("a <= b : " + (a <= b) + "<br>");
+// let balance = 25000;
+// let amount = 7000;
+// let pin = 1234;
+// let enteredPin = 1234;
+
+// if (enteredPin !== pin) {
+//     console.log("Invalid PIN");
+// } 
+// else if (amount <= 0) {
+//     console.log("Invalid withdrawal amount");
+// } 
+// else if (amount > balance) {
+//     console.log("Insufficient Balance");
+// } 
+// else if (amount % 100 !== 0) {
+//     console.log("Amount must be multiple of 100");
+// } 
+// else {
+//     balance = balance - amount;
+
+//     console.log("Withdrawal Successful");
+//     console.log("Withdrawn: ₹" + amount);
+//     console.log("Remaining Balance: ₹" + balance);
+// }
+// let amount = 8500;
+// let isMember = true;
+// let coupon = "SAVE10";
+
+// let discount = 0;
+
+// if (amount <= 0) {
+//     console.log("Invalid Amount");
+// }
+// else if (amount >= 10000) {
+//     discount = 20;
+// }
+// else if (amount >= 5000) {
+//     discount = 10;
+// }
+// else if (amount >= 2000) {
+//     discount = 5;
+// }
+
+// if (isMember) {
+//     discount += 5;
+// }
+
+// if (coupon === "SAVE10") {
+//     discount += 10;
+// }
+
+// if (discount > 30) {
+//     discount = 30;
+// }
+
+// let discountAmount = amount * discount / 100;
+// let finalAmount = amount - discountAmount;
+
+// console.log("Original Amount: ₹" + amount);
+// console.log("Discount: " + discount + "%");
+// console.log("Discount Amount: ₹" + discountAmount);
+// console.log("Final Amount: ₹" + finalAmount);
+// let amount = 8500;
+// let isMember = true;
+// let coupon = "SAVE10";
+
+// let discount = 0;
+
+// if (amount <= 0) {
+//     console.log("Invalid Amount");
+// }
+// else if (amount >= 10000) {
+//     discount = 20;
+// }
+// else if (amount >= 5000) {
+//     discount = 10;
+// }
+// else if (amount >= 2000) {
+//     discount = 5;
+// }
+
+// if (isMember) {
+//     discount += 5;
+// }
+
+// if (coupon === "SAVE10") {
+//     discount += 10;
+// }
+
+// if (discount > 30) {
+//     discount = 30;
+// }
+
+// let discountAmount = amount * discount / 100;
+// let finalAmount = amount - discountAmount;
+
+// console.log("Original Amount: ₹" + amount);
+// console.log("Discount: " + discount + "%");
+// console.log("Discount Amount: ₹" + discountAmount);
+// console.log("Final Amount: ₹" + finalAmount);
